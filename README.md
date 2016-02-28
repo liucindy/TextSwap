@@ -1,3 +1,3 @@
 # TextSwap
 
-Android app for swapping textbooks
+A Tinder-style Android app for textbook swapping
