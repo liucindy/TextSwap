@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="100dp"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload a picture"
+        android:id="@+id/upload_picture"
+        android:onClick="takePhoto" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Description"
+        android:ems="10" >
+    </EditText>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="141dp"
+        android:id="@+id/capturePhotoImageView"
+        android:layout_gravity="center"
+        android:layout_weight="0.37">
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_gravity="right"/>
+
+
+</LinearLayout>
